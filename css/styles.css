@@ -6,17 +6,22 @@
 }
 
 body {
+  min-height: 100vh;
   background-color: hsl(212deg, 45%, 89%);
   font-family: "Outfit", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .main-container {
   background-color: hsl(0deg, 0%, 100%);
   width: 320px;
   height: 500px;
-  margin: 60px auto;
   border-radius: 16px;
   padding: 18px;
+  margin-bottom: 2rem;
 }
 .main-container__image {
   width: 283px;
